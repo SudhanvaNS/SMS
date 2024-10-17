@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- list_item_message.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/custom_list_item_bg"
+    android:padding="12dp"
+    android:layout_margin="8dp">
+
+    <!-- Sender's phone number -->
+    <TextView
+        android:id="@+id/tvSender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From: +1234567890"
+        android:textColor="#EE009F"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <!-- Message content -->
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message content here"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp" />
+
+    <!-- Timestamp (optional) -->
+    <TextView
+        android:id="@+id/tvTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:45 PM"
+        android:textColor="#ED1212"
+        android:textSize="12sp"
+        android:paddingTop="4dp"/>
+</LinearLayout>
